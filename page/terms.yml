@@ -1,0 +1,18 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  test:
+    type: text
+    innerHTML: 'yml:/theme/[theme]/layout/menu.yml'
+  terms:
+    type: div
+    attribute:
+      class: "bg-primary buto_page"
+    innerHTML:
+      -
+        type: section
+        attribute:
+          class: "container"
+        innerHTML: terms

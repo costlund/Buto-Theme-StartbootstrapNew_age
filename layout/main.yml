@@ -1,0 +1,76 @@
+settings:
+  path: 'main/innerHTML'
+content:
+  main:
+    type: div
+    innerHTML: 'main...'
+  footer:
+    type: footer
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: "container"
+        innerHTML:
+          -
+            type: p
+            innerHTML: "&copy; 2016 Start Bootstrap. All Rights Reserved."
+          -
+            type: ul
+            attribute:
+              class: "list-inline"
+            innerHTML:
+              -
+                type: li
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      href: "/privacy"
+                    innerHTML: Privacy
+              -
+                type: li
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      href: "/terms"
+                    innerHTML: Terms
+              -
+                type: li
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      href: "/faq"
+                    innerHTML: FAQ
+    
+  jquery_text:
+    type: text
+    text: "<!-- jQuery -->"
+  jquery:
+    type: script
+    attribute:
+      src: "/theme/[theme]/vendor/jquery/jquery.min.js"
+  bootstrap_text:
+    type: text
+    text: "<!-- Bootstrap Core JavaScript -->"
+  bootstrap:
+    type: script
+    attribute:
+      src: "/theme/[theme]/vendor/bootstrap/js/bootstrap.min.js"
+  jquery_easing_text:
+    type: text
+    text: "<!-- Plugin JavaScript -->"
+  jquery_easing:
+    type: script
+    attribute:
+      src: "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
+  new_age_text:
+    type: text
+    text: "<!-- Theme JavaScript -->"
+  new_age:
+    type: script
+    attribute:
+      src: "/theme/[theme]/js/new-age.min.js"
+    

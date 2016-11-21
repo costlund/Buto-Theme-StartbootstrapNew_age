@@ -1,0 +1,117 @@
+settings:
+  path: 'html/innerHTML/body/innerHTML'
+content:
+  doctype:
+    type: text
+    text: '<!DOCTYPE html>'
+  html:
+    type: html
+    attribute:
+      lang: en
+    innerHTML:
+      head:
+        type: head
+        innerHTML:
+          -
+            type: meta
+            attribute:
+              charset: "utf-8"
+          -
+            type: meta
+            attribute:
+              http-equiv: "X-UA-Compatible" 
+              content: "IE=edge"
+          -
+            type: meta
+            attribute:
+              name: "viewport" 
+              content: "width=device-width, initial-scale=1"
+          -
+            type: meta
+            attribute:
+              name: "description" 
+              content: ""
+          -
+            type: meta
+            attribute:
+              name: "author" 
+              content: ""
+          -
+            type: title
+            innerHTML: New Age - Start Bootstrap Theme
+            
+#    <!-- Bootstrap Core CSS -->
+          -
+            type: link
+            attribute:
+              href: "/theme/[theme]/vendor/bootstrap/css/bootstrap.min.css" 
+              rel: "stylesheet"
+            
+#    <!-- Custom Fonts -->
+          -
+            type: link
+            attribute:
+              href: "https://fonts.googleapis.com/css?family=Lato" 
+              rel: "stylesheet"
+          -
+            type: link
+            attribute:
+              href: "https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" 
+              rel: "stylesheet"
+          -
+            type: link
+            attribute:
+              href: "https://fonts.googleapis.com/css?family=Muli" 
+              rel: "stylesheet"
+#    <!-- Plugin CSS -->
+          -
+            type: link
+            attribute:
+              rel: "stylesheet" 
+              href: "/theme/[theme]/vendor/font-awesome/css/font-awesome.min.css"
+          -
+            type: link
+            attribute:
+              rel: "stylesheet" 
+              href: "/theme/[theme]/vendor/simple-line-icons/css/simple-line-icons.css"
+          -
+            type: link
+            attribute:
+              rel: "stylesheet" 
+              href: "/theme/[theme]/vendor/device-mockups/device-mockups.min.css"
+#    <!-- Theme CSS -->
+          -
+            type: link
+            attribute:
+              href: "/theme/[theme]/css/new-age.min.css" 
+              rel: "stylesheet"
+#    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+          -
+            type: text
+            text: "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->"
+          -
+            type: text
+            text: "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->"
+          -
+            type: text
+            text: "<!--[if lt IE 9]>"
+          -
+            type: script
+            attribute:
+              src: "https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"
+          -
+            type: script
+            attribute:
+              src: "https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"
+          -
+            type: text
+            text: "<![endif]-->"
+            
+          -
+            type: style
+            innerHTML: "body{background:#222}#features{background:white}.buto_page{min-height:500px} header{ background: url(\"/theme/startbootstrap/new_age/img/bg-pattern.png\") repeat scroll 0 0%, rgba(0, 0, 0, 0) linear-gradient(to left, green, blue) repeat scroll 0 0}"
+      body:
+        type: body
+        attribute:
+          id: 'page-top'
+        innerHTML: 'body...'

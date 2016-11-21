@@ -1,0 +1,86 @@
+nav:
+  type: nav 
+  attribute:
+    id: "mainNav" 
+    class: "navbar navbar-default navbar-fixed-top"
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: "container"
+      innerHTML:
+        -
+          type: text
+          text: "<!-- Brand and toggle get grouped for better mobile display -->"
+        -
+          type: div 
+          attribute:
+            class: "navbar-header"
+          innerHTML:
+            -
+              type: button 
+              attribute:
+                type: "button" 
+                class: "navbar-toggle collapsed" 
+                data-toggle: "collapse" 
+                data-target: "#bs-example-navbar-collapse-1"
+              innerHTML:
+                -
+                  type: span 
+                  attribute: 
+                    class: "sr-only"
+                  innerHTML: "Toggle navigation"
+                -
+                  type: text
+                  text: Menu
+                -
+                  type: i
+                  attribute: 
+                    class: "fa fa-bars"
+            -
+              type: a
+              attribute:
+                class: "navbar-brand page-scrollzzz" 
+                href: "/"
+              innerHTML: Start Bootstrap
+        -
+          type: text
+          text: "<!-- Collect the nav links, forms, and other content for toggling -->"
+        -
+          type: div
+          attribute:
+            class: "collapse navbar-collapse" 
+            id: "bs-example-navbar-collapse-1"
+          innerHTML:
+            -
+              type: ul
+              attribute:
+                class: "nav navbar-nav navbar-right"
+              innerHTML:
+                -
+                  type: li
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        classzzz: "page-scroll" 
+                        href: "/#download"
+                      innerHTML: Download
+                -
+                  type: li
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        classzzz: "page-scroll" 
+                        href: "/#features"
+                      innerHTML: Features
+                -
+                  type: li
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        classzzz: "page-scroll" 
+                        href: "/#contact"
+                      innerHTML: Contact
