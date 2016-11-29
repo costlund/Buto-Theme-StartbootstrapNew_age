@@ -4,63 +4,63 @@ settings:
     - main
 content:
   -
-    type: nav 
+    type: nav
     attribute:
-      id: "mainNav" 
-      class: "navbar navbar-default navbar-fixed-top"
+      id: mainNav
+      class: 'navbar navbar-default navbar-fixed-top'
     innerHTML:
       -
         type: div
         attribute:
-          class: "container"
+          class: container
         innerHTML:
           -
             type: text
-            text: "<!-- Brand and toggle get grouped for better mobile display -->"
+            text: '<!-- Brand and toggle get grouped for better mobile display -->'
           -
-            type: div 
+            type: div
             attribute:
-              class: "navbar-header"
+              class: navbar-header
             innerHTML:
               -
-                type: button 
+                type: button
                 attribute:
-                  type: "button" 
-                  class: "navbar-toggle collapsed" 
-                  data-toggle: "collapse" 
-                  data-target: "#bs-example-navbar-collapse-1"
+                  type: button
+                  class: 'navbar-toggle collapsed'
+                  data-toggle: collapse
+                  data-target: '#bs-example-navbar-collapse-1'
                 innerHTML:
                   -
-                    type: span 
-                    attribute: 
-                      class: "sr-only"
-                    innerHTML: "Toggle navigation"
+                    type: span
+                    attribute:
+                      class: sr-only
+                    innerHTML: 'Toggle navigation'
                   -
                     type: text
                     text: Menu
                   -
                     type: i
-                    attribute: 
-                      class: "fa fa-bars"
+                    attribute:
+                      class: 'fa fa-bars'
               -
                 type: a
                 attribute:
-                  class: "navbar-brand page-scroll" 
-                  href: "#page-top"
-                innerHTML: Start Bootstrap
+                  class: 'navbar-brand page-scroll'
+                  href: '#page-top'
+                innerHTML: 'Start Bootstrap'
           -
             type: text
-            text: "<!-- Collect the nav links, forms, and other content for toggling -->"
+            text: '<!-- Collect the nav links, forms, and other content for toggling -->'
           -
             type: div
             attribute:
-              class: "collapse navbar-collapse" 
-              id: "bs-example-navbar-collapse-1"
+              class: 'collapse navbar-collapse'
+              id: bs-example-navbar-collapse-1
             innerHTML:
               -
                 type: ul
                 attribute:
-                  class: "nav navbar-nav navbar-right"
+                  class: 'nav navbar-nav navbar-right'
                 innerHTML:
                   -
                     type: li
@@ -68,8 +68,8 @@ content:
                       -
                         type: a
                         attribute:
-                          class: "page-scroll" 
-                          href: "#download"
+                          class: page-scroll
+                          href: '#download'
                         innerHTML: Download
                   -
                     type: li
@@ -77,8 +77,8 @@ content:
                       -
                         type: a
                         attribute:
-                          class: "page-scroll" 
-                          href: "#features"
+                          class: page-scroll
+                          href: '#features'
                         innerHTML: Features
                   -
                     type: li
@@ -86,8 +86,8 @@ content:
                       -
                         type: a
                         attribute:
-                          class: "page-scroll" 
-                          href: "#contact"
+                          class: page-scroll
+                          href: '#contact'
                         innerHTML: Contact
   -
     type: header
@@ -95,221 +95,214 @@ content:
       -
         type: div
         attribute:
-          class: "container"
+          class: container
         innerHTML:
           -
             type: div
             attribute:
-              class: "row"
+              class: row
             innerHTML:
               -
                 type: div
                 attribute:
-                  class: "col-sm-7"
+                  class: col-sm-7
                 innerHTML:
                   -
                     type: div
                     attribute:
-                      class: "header-content"
+                      class: header-content
                     innerHTML:
                       -
                         type: div
                         attribute:
-                          class: "header-content-inner"
+                          class: header-content-inner
                         innerHTML:
                           -
                             type: h1
-                            innerHTML: "New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!"
+                            innerHTML: 'New Age is an ape landing page that will help you beautifully showcase your new mobile app, or anything else!'
                           -
                             type: a
-                            attribute: 
-                              href: "#download" 
-                              class: "btn btn-outline btn-xl page-scroll"
-                            innerHTML: "Start Now for Free!"
+                            attribute:
+                              href: '#download'
+                              class: 'btn btn-outline btn-xl page-scroll'
+                            innerHTML: 'Start Now for Free!'
               -
                 type: div
                 attribute:
-                  class: "col-sm-5"
+                  class: col-sm-5
                 innerHTML:
                   -
                     type: div
                     attribute:
-                      class: "device-container"
+                      class: device-container
                     innerHTML:
                       -
                         type: div
                         attribute:
-                          class: "device-mockup iphone6_plus portrait white"
+                          class: 'device-mockup iphone6_plus portrait white'
                         innerHTML:
                           -
                             type: div
                             attribute:
-                              class: "device"
+                              class: device
                             innerHTML:
                               -
                                 type: div
                                 attribute:
-                                  class: "screen"
+                                  class: screen
                                 innerHTML:
                                   -
                                     type: text
-                                    text: "<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->"
+                                    text: '<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->'
                                   -
                                     type: img
-                                    attribute: 
-                                      src: "/theme/[theme]/img/demo-screen-1.jpg" 
-                                      class: "img-responsive" 
-                                      alt: ""
+                                    attribute:
+                                      src: '/theme/[theme]/img/demo-screen-1.jpg'
+                                      class: img-responsive
+                                      alt: ''
                               -
                                 type: div
                                 attribute:
-                                  class: "button"
+                                  class: button
                                 innerHTML:
                                   -
                                     type: text
                                     text: '<!-- You can hook the "home button" to some JavaScript events or just remove it -->'
-    
-    
   -
     type: section
     attribute:
-      id: "download" 
-      class: "download bg-primary text-center"
+      id: download
+      class: 'download bg-primary text-center'
     innerHTML:
       -
         type: div
         attribute:
-          class: "container"
+          class: container
         innerHTML:
           -
             type: div
             attribute:
-              class: "row"
+              class: row
             innerHTML:
               -
                 type: div
                 attribute:
-                  class: "col-md-8 col-md-offset-2"
+                  class: 'col-md-8 col-md-offset-2'
                 innerHTML:
                   -
                     type: h2
                     attribute:
-                      class: "section-heading"
-                    innerHTML: "Discover what all the buzz is about!"
+                      class: section-heading
+                    innerHTML: 'Discover what all the buzz is about!'
                   -
                     type: p
-                    innerHTML: "Our app is available on any mobile device! Download now to get started!"
+                    innerHTML: 'Our app is available on any mobile device! Download now to get started!'
                   -
                     type: div
                     attribute:
-                      class: "badges"
+                      class: badges
                     innerHTML:
                       -
                         type: a
                         attribute:
-                          class: "badge-link" 
-                          href: "#"
-                        innerHTML:
-                        - 
+                          class: badge-link
+                          href: '#'
+                        innerHTML: null
+                        0:
                           type: img
                           attribute:
-                            src: "/theme/[theme]/img/google-play-badge.svg" 
-                            alt: ""
+                            src: '/theme/[theme]/img/google-play-badge.svg'
+                            alt: ''
                       -
                         type: a
                         attribute:
-                          class: "badge-link" 
-                          href: "#"
+                          class: badge-link
+                          href: '#'
                         innerHTML:
                           -
                             type: img
                             attribute:
-                              src: "/theme/[theme]/img/app-store-badge.svg" 
-                              alt: ""
-    
-    
-    
-    
-    
+                              src: '/theme/[theme]/img/app-store-badge.svg'
+                              alt: ''
   -
     type: section
     attribute:
-      id: "features" 
-      class: "features"
+      id: features
+      class: features
     innerHTML:
       -
         type: div
         attribute:
-          class: "container"
+          class: container
         innerHTML:
           -
             type: div
             attribute:
-              class: "row"
+              class: row
             innerHTML:
               -
                 type: div
                 attribute:
-                  class: "col-lg-12 text-center"
+                  class: 'col-lg-12 text-center'
                 innerHTML:
                   -
                     type: div
                     attribute:
-                      class: "section-heading"
+                      class: section-heading
                     innerHTML:
                       -
                         type: h2
-                        innerHTML: Unlimited Features, Unlimited Fun
+                        innerHTML: 'Unlimited Features, Unlimited Fun'
                       -
                         type: p
                         attribute:
-                          class: "text-muted"
-                        innerHTML: Check out what you can do with this app theme!
+                          class: text-muted
+                        innerHTML: 'Check out what you can do with this app theme!'
                       -
                         type: hr
           -
             type: div
             attribute:
-              class: "row"
+              class: row
             innerHTML:
               -
                 type: div
                 attribute:
-                  class: "col-md-4"
+                  class: col-md-4
                 innerHTML:
                   -
                     type: div
                     attribute:
-                      class: "device-container"
+                      class: device-container
                     innerHTML:
                       -
                         type: div
                         attribute:
-                          class: "device-mockup iphone6_plus portrait white"
+                          class: 'device-mockup iphone6_plus portrait white'
                         innerHTML:
                           -
                             type: div
                             attribute:
-                              class: "device"
+                              class: device
                             innerHTML:
                               -
                                 type: div
                                 attribute:
-                                  class: "screen"
+                                  class: screen
                                 innerHTML:
                                   -
                                     type: text
-                                    text: "<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->"
+                                    text: '<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->'
                                   -
                                     type: img
                                     attribute:
-                                      src: "/theme/[theme]/img/demo-screen-1.jpg" 
-                                      class: "img-responsive" 
-                                      alt: ""
+                                      src: '/theme/[theme]/img/demo-screen-1.jpg'
+                                      class: img-responsive
+                                      alt: ''
                               -
                                 type: div
                                 attribute:
-                                  class: "button"
+                                  class: button
                                 innerHTML:
                                   -
                                     type: text
@@ -317,157 +310,149 @@ content:
               -
                 type: div
                 attribute:
-                  class: "col-md-8"
+                  class: col-md-8
                 innerHTML:
                   -
                     type: div
                     attribute:
-                      class: "container-fluid"
+                      class: container-fluid
                     innerHTML:
                       -
                         type: div
                         attribute:
-                          class: "row"
+                          class: row
                         innerHTML:
                           -
                             type: div
                             attribute:
-                              class: "col-md-6"
+                              class: col-md-6
                             innerHTML:
                               -
                                 type: div
                                 attribute:
-                                  class: "feature-item"
+                                  class: feature-item
                                 innerHTML:
                                   -
                                     type: i
                                     attribute:
-                                      class: "icon-screen-smartphone text-primary"
+                                      class: 'icon-screen-smartphone text-primary'
                                   -
                                     type: h3
-                                    innerHTML: Device Mockups
+                                    innerHTML: 'Device Mockups'
                                   -
                                     type: p
                                     attribute:
-                                      class: "text-muted"
-                                    innerHTML: Ready to use HTML/CSS device mockups, no Photoshop required!
+                                      class: text-muted
+                                    innerHTML: 'Ready to use HTML/CSS device mockups, no Photoshop required!'
                           -
                             type: div
                             attribute:
-                              class: "col-md-6"
+                              class: col-md-6
                             innerHTML:
                               -
                                 type: div
                                 attribute:
-                                  class: "feature-item"
+                                  class: feature-item
                                 innerHTML:
                                   -
                                     type: i
                                     attribute:
-                                      class: "icon-camera text-primary"
+                                      class: 'icon-camera text-primary'
                                   -
                                     type: h3
-                                    innerHTML: Flexible Use
+                                    innerHTML: 'Flexible Use'
                                   -
                                     type: p
                                     attribute:
-                                      class: "text-muted"
-                                    innerHTML: "Put an image, video, animation, or anything else in the screen!"
+                                      class: text-muted
+                                    innerHTML: 'Put an image, video, animation, or anything else in the screen!'
                       -
                         type: div
                         attribute:
-                          class: "row"
+                          class: row
                         innerHTML:
                           -
                             type: div
                             attribute:
-                              class: "col-md-6"
+                              class: col-md-6
                             innerHTML:
                               -
                                 type: div
                                 attribute:
-                                  class: "feature-item"
+                                  class: feature-item
                                 innerHTML:
                                   -
                                     type: i
                                     attribute:
-                                      class: "icon-present text-primary"
+                                      class: 'icon-present text-primary'
                                   -
                                     type: h3
-                                    innerHTML: Free to Use
+                                    innerHTML: 'Free to Use'
                                   -
                                     type: p
                                     attribute:
-                                      class: "text-muted"
-                                    innerHTML: As always, this theme is free to download and use for any purpose!
+                                      class: text-muted
+                                    innerHTML: 'As always, this theme is free to download and use for any purpose!'
                           -
                             type: div
                             attribute:
-                              class: "col-md-6"
+                              class: col-md-6
                             innerHTML:
                               -
                                 type: div
                                 attribute:
-                                  class: "feature-item"
+                                  class: feature-item
                                 innerHTML:
                                   -
                                     type: i
                                     attribute:
-                                      class: "icon-lock-open text-primary"
+                                      class: 'icon-lock-open text-primary'
                                   -
                                     type: h3
-                                    innerHTML: Open Source
+                                    innerHTML: 'Open Source'
                                   -
                                     type: p
                                     attribute:
-                                      class: "text-muted"
-                                    innerHTML: Since this theme is MIT licensed, you can use it commercially!
-      
-      
-      
-      
+                                      class: text-muted
+                                    innerHTML: 'Since this theme is MIT licensed, you can use it commercially!'
   -
     type: section
     attribute:
-      class: "cta"
+      class: cta
     innerHTML:
       -
         type: div
         attribute:
-          class: "cta-content"
+          class: cta-content
         innerHTML:
           -
             type: div
             attribute:
-              class: "container"
+              class: container
             innerHTML:
               -
                 type: h2
-                innerHTML: Stop waiting.<br>Start building.
+                innerHTML: 'Stop waiting.<br>Start building.'
               -
                 type: a
                 attribute:
-                  href: "#contact" 
-                  class: "btn btn-outline btn-xl page-scroll"
-                innerHTML: "Let's Get Started!"
+                  href: '#contact'
+                  class: 'btn btn-outline btn-xl page-scroll'
+                innerHTML: 'Let''s Get Started!'
       -
         type: div
         attribute:
-          class: "overlay"
-          
-      
-      
-      
+          class: overlay
   -
     type: section
     attribute:
-      id: "contact" 
-      class: "contact bg-primary"
+      id: contact
+      class: 'contact bg-primary'
     innerHTML:
       -
         type: div
         attribute:
-          class: "container"
+          class: container
         innerHTML:
           -
             type: h2
@@ -475,67 +460,47 @@ content:
           -
             type: ul
             attribute:
-              class: "list-inline list-social"
+              class: 'list-inline list-social'
             innerHTML:
               -
                 type: li
                 attribute:
-                  class: "social-twitter"
+                  class: social-twitter
                 innerHTML:
                   -
                     type: a
                     attribute:
-                      href: "#"
+                      href: '#'
                     innerHTML:
                       -
                         type: i
                         attribute:
-                          class: "fa fa-twitter"
+                          class: 'fa fa-twitter'
               -
                 type: li
                 attribute:
-                  class: "social-facebook"
+                  class: social-facebook
                 innerHTML:
                   -
                     type: a
                     attribute:
-                      href: "#"
+                      href: '#'
                     innerHTML:
                       -
                         type: i
                         attribute:
-                          class: "fa fa-facebook"
+                          class: 'fa fa-facebook'
               -
                 type: li
                 attribute:
-                  class: "social-google-plus"
+                  class: social-google-plus
                 innerHTML:
                   -
                     type: a
                     attribute:
-                      href: "#"
+                      href: '#'
                     innerHTML:
                       -
                         type: i
                         attribute:
-                          class: "fa fa-google-plus"
-    
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+                          class: 'fa fa-google-plus'
